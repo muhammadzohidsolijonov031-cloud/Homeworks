@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1008px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: solid 3px;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-r {
+  display: flex;
+  gap: 24px;
+  .links {
+    display: flex;
+    gap: 48px;
+  }
+}
